@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Deshi Shahi Cow",
+        "type": "Cow",
+        "breed": "Local Deshi",
+        "price": 120000,
+        "weight": 280,
+        "age": 3,
+        "location": "Bogura",
+        "description": "Healthy deshi cow suitable for Qurbani.",
+        "image": "/cow1.jpeg",
+        "category": "Large Animal"
+    },
+    {
+        "id": 2,
+        "name": "Black Bengal Goat",
+        "type": "Goat",
+        "breed": "Black Bengal",
+        "price": 25000,
+        "weight": 40,
+        "age": 2,
+        "location": "Rajshahi",
+        "description": "Popular black bengal goat.",
+        "image": "/goat1.jpeg",
+        "category": "Small Animal"
+    },
+    {
+        "id": 3,
+        "name": "Sahiwal Cow",
+        "type": "Cow",
+        "breed": "Sahiwal",
+        "price": 150000,
+        "weight": 350,
+        "age": 4,
+        "location": "Dhaka",
+        "description": "Premium quality Sahiwal cow.",
+        "image": "/cow2.jpeg",
+        "category": "Large Animal"
+    },
+    {
+        "id": 4,
+        "name": "Jamunapari Goat",
+        "type": "Goat",
+        "breed": "Jamunapari",
+        "price": 40000,
+        "weight": 55,
+        "age": 3,
+        "location": "Khulna",
+        "description": "Healthy Jamunapari goat.",
+        "image": "/goat2.jpeg",
+        "category": "Small Animal"
+    },
+    {
+        "id": 5,
+        "name": "Brahman Bull",
+        "type": "Cow",
+        "breed": "Brahman",
+        "price": 200000,
+        "weight": 420,
+        "age": 5,
+        "location": "Sylhet",
+        "description": "Strong and healthy Brahman bull.",
+        "image": "/cow3.jpeg",
+        "category": "Large Animal"
+    },
+    {
+        "id": 6,
+        "name": "Boer Goat",
+        "type": "Goat",
+        "breed": "Boer",
+        "price": 55000,
+        "weight": 60,
+        "age": 3,
+        "location": "Chattogram",
+        "description": "Imported Boer goat for premium Qurbani.",
+        "image": "/goat3.jpeg",
+        "category": "Small Animal"
+    }
+]
