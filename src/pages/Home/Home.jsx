@@ -2,16 +2,20 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import hero from "../../assets/hero.jpeg";
+
 import AnimalCard from "../../components/AnimalCard";
+import ExtraSection from "../../components/ExtraSection";
 
 const Home = () => {
 
     const [animals, setAnimals] = useState([]);
 
     useEffect(() => {
+
         fetch("/animals.json")
             .then((res) => res.json())
             .then((data) => setAnimals(data));
+
     }, []);
 
     return (
@@ -23,9 +27,11 @@ const Home = () => {
                     backgroundImage: `url(${hero})`,
                 }}
             >
+
                 <div className="hero-overlay bg-black/60"></div>
 
                 <div className="hero-content text-neutral-content text-center">
+
                     <div className="max-w-2xl">
 
                         <h1 className="mb-5 text-5xl font-bold">
@@ -37,14 +43,20 @@ const Home = () => {
                         </p>
 
                         <Link to="/animals">
+
                             <button className="btn btn-primary">
                                 Browse Animals
                             </button>
+
                         </Link>
 
                     </div>
+
                 </div>
+
             </div>
+
+           
 
             <div className="max-w-7xl mx-auto py-20 px-4">
 
@@ -66,6 +78,10 @@ const Home = () => {
                 </div>
 
             </div>
+
+         
+
+            <ExtraSection />
 
         </div>
     );
