@@ -34,7 +34,7 @@ const Home = () => {
 
                     <div className="max-w-2xl">
 
-                        <h1 className="mb-5 text-5xl font-bold">
+                        <h1 className="mb-5 text-5xl font-bold animate__animated animate__bounce">
                             Find Perfect Animals For Qurbani
                         </h1>
 
@@ -79,7 +79,6 @@ const Home = () => {
 
             </div>
 
-         
 
             <ExtraSection />
 
