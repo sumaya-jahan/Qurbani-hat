@@ -1,16 +1,38 @@
-# React + Vite
+# Qurbani Hat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Qurbani animal marketplace web application where users can browse, view details, and book animals online.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://radiant-duckanoo-d1eb37.netlify.app
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/sumaya-jahan/Qurbani-hat
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Firebase Authentication
+- Email & Password Login/Register
+- Google Login
+- Private Routes
+- Dynamic Navbar
+- Animal Details Page
+- Sort Animals By Price
+- Update User Profile
+- Responsive Design
+- Custom 404 Page
+
+## Technologies Used
+
+- React
+- React Router
+- Firebase
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+
+## Dependencies
+
+```bash
+npm install
